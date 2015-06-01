@@ -44,14 +44,14 @@
         mov     tempo2,tempo1
         andi    tempo1,0b00001111       ; mascara para los 4 bits
 
-        call    bin_to_bcd
+        call    bin_to_7seg
         out     portc,tempo1             ; muestro la parte baja
 
         swap    tempo2
         andi    tempo2,0b00001111       
         mov     tempo1,tempo2
 
-        call    bin_to_bcd
+        call    bin_to_7seg
         out     porta,tempo1            ; muestro la parte alta       
 
         rjmp    loop
@@ -64,7 +64,7 @@
  ; Salida ==> R16 = numero convertido
  ; Temporal ==> R17
  ; ===========================================================
- bin_to_bcd:
+ bin_to_7seg:
         
         push    r17         ; enviar al stack el registro r17
 
