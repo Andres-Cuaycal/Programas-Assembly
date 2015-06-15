@@ -1,0 +1,55 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega164P"</DEVICE>
+ <WORKING_DIR>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\Teclado_1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m164Pdef.inc</FILE>
+  <FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\teclado.inc</FILE>
+  <FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\BarridoDisplay.inc</FILE>
+  <FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\teclado.asm</FILE>
+  <FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\binBCD.asm</FILE>
+  <FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\BCD7seg.asm</FILE>
+  <FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\BarridoDisplay.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\Debug/Teclado_1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Teclado_1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Teclado_1.map</FILE>
+  <FILE>Teclado_1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <tecla><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\teclado.inc</FILE><LINE>13</LINE></tecla>
+  <binario><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\BarridoDisplay.inc</FILE><LINE>15</LINE></binario>
+  <n_bcd><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\BarridoDisplay.inc</FILE><LINE>16</LINE></n_bcd>
+  <n_dig><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\BarridoDisplay.inc</FILE><LINE>17</LINE></n_dig>
+  <barrido_init><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\BarridoDisplay.asm</FILE><LINE>9</LINE></barrido_init>
+  <teclado_init><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\teclado.asm</FILE><LINE>9</LINE></teclado_init>
+  <loop><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\Teclado_1.asm</FILE><LINE>26</LINE></loop>
+  <teclado><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\teclado.asm</FILE><LINE>17</LINE></teclado>
+  <continuar><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\Teclado_1.asm</FILE><LINE>42</LINE></continuar>
+  <bin_bcd><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\binBCD.asm</FILE><LINE>14</LINE></bin_bcd>
+  <bcd_7seg><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\BCD7seg.asm</FILE><LINE>13</LINE></bcd_7seg>
+  <barrido><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\BarridoDisplay.asm</FILE><LINE>30</LINE></barrido>
+  <tabla_teclado><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\teclado.asm</FILE><LINE>87</LINE></tabla_teclado>
+  <tabla_div><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\binBCD.asm</FILE><LINE>62</LINE></tabla_div>
+  <bin_bcd0><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\binBCD.asm</FILE><LINE>33</LINE></bin_bcd0>
+  <bin_bcd1><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\binBCD.asm</FILE><LINE>37</LINE></bin_bcd1>
+  <bin_bcd2><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\binBCD.asm</FILE><LINE>44</LINE></bin_bcd2>
+  <bcd_7seg0><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\BCD7seg.asm</FILE><LINE>25</LINE></bcd_7seg0>
+  <bin_to_7seg><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\BCD7seg.asm</FILE><LINE>43</LINE></bin_to_7seg>
+  <tabla_7seg><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\BCD7seg.asm</FILE><LINE>52</LINE></tabla_7seg>
+  <barrido0><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\BarridoDisplay.asm</FILE><LINE>42</LINE></barrido0>
+  <barrido1><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\BarridoDisplay.asm</FILE><LINE>50</LINE></barrido1>
+  <ret_barrido><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\BarridoDisplay.asm</FILE><LINE>71</LINE></ret_barrido>
+  <ret_barrido0><FILE>C:\Users\ANDRES\Documents\ESCUELA POLITECNICA NACIONAL\Curso Assembler\Teclado_1\BarridoDisplay.asm</FILE><LINE>74</LINE></ret_barrido0>
+ </LABELS>
+</ASSEMBLER_INFO>
